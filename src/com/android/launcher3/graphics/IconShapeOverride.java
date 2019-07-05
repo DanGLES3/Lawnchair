@@ -60,9 +60,8 @@ public class IconShapeOverride {
             return false;
         }
 
-        if (Utilities.isMiui()) {
-            return false;
-        }
+
+
 
         try {
             if (getSystemResField().get(null) != Resources.getSystem()) {
